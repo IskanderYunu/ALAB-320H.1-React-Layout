@@ -3,7 +3,11 @@ import HomePage from "./components/HomePage";
 import "./App.css";
 
 const App = () => {
-  return <HomePage />;
+  return (
+    <div className="app">
+      <HomePage />;
+    </div>
+  );
 };
 
 export default App;
